@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    color: white;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background:orange;
+    color: #000;
+    box-shadow: 2px 1px 1px 1px rgb(0, 0, 0);
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    background-image: url(https://img.freepik.com/free-vector/fast-food-pattern_1108-194.jpg?w=740&t=st=1699092997~exp=1699093597~hmac=57e08469e1d77ba60034b20303ea8e5fc0764f245a20b0dd5e002cbd16fe090b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container img {
+    height: 500px;
+    padding: 0 50px;
+}
+
+.container .text-left h1 {
+    font-size: 55px;
+    padding: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.container .text-left P {
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+    padding: 2px 60px;
+}
+
+.text-left button {
+    font-size: 30px;
+    margin: 1% 10%;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    width: 140px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px rgb(136, 134, 134);
+}
+
+.text-left button:hover {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+
+nav .navText a {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(12, 12, 12);
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+nav .navText a:hover {
+    color: rgb(94, 92, 92);
+    border-bottom: 1px solid rgb(3, 3, 3);
+}
+
+nav .navText  .active {
+    color: rgb(94, 92, 92);
+    border-bottom: 1px solid rgb(3, 3, 3);
+}
+
+nav .icon i {
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.page2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    color: #000;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text h1{
+display: flex;
+color: black;
+font-size: 50px;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+margin-top: 20px;
+border-top: 1px solid black;
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+.page2 .box{    
+    width: 350px;
+    height: 320px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(84, 83, 83);
+}
+
+.page2 .box img{
+    width: 100%;
+    height: 250px;
+}
+.page2 .box h3{
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+
+.page2 .box button{
+    width: 90px;
+    height: 30px;
+    margin: 2px;
+    background: orangered;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.page2 .box button:hover{
+    background: white;
+    color: #000;
+    border: 1px solid black;
+}
+.text-2 h1{
+    display: flex;
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}   
+.page3{
+    margin-top: 4%;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-1{
+    width: 220px;
+    height: 210px;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(94, 94, 94);
+    margin-bottom: 8%;
+}
+
+.box-1 img{
+   
+    width: 100%;
+}
+.box-1 h3{
+    color: #000;
+}
+.text-3{
+    display: flex;
+color: black;
+font-size: 40px;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+margin-top: 5%;
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.page4 .blog-img {
+    width:900px;
+    height: 500px;
+    padding: 0px 20px;
+}
+.page4 .blog-text{
+    margin-bottom: 50px;
+}
+.page4 .blog-text h1{
+font-size: 50px;
+color: #000;
+}
+
+.page4 .blog-text p{
+    font-size: 20px;
+    color: gray;
+}
+
+.cont{
+    height: 400px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont .company  h1{
+    font-size: 19px;
+    margin: 7px;
+    color: rgb(191, 187, 187);
+}
+
+.contact h1{
+    font-size: 19px;
+    margin: 20px;
+    color: rgb(191, 187, 187);
+}
+
+.legal h1{
+    font-size: 19px;
+    margin: 10px;
+    color: rgb(191, 187, 187);
+}
+
+.company p{
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+}
+.contact p{
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+}
+.legal p{
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+}
